@@ -5,6 +5,9 @@ config/clash-verge-local.yaml
 # 代理缓存
 proxies/
 
+# 节点聚合（体积大，仅本地排查用，不入库）
+output/unavailable-sources.json
+
 # macOS
 .DS_Store
 

@@ -105,6 +105,20 @@ payload:
 
 ---
 
+## 🆓 免费节点订阅（可选）
+
+没有机场？本项目每小时自动从 11 个公开的免费节点仓库聚合一次可用节点（去重、探活、按地区限额），订阅链接：
+
+```text
+https://raw.githubusercontent.com/ifhell/clash-verge-rules/main/output/clash.yaml
+```
+
+这是一个简单的全局代理配置（不含分流规则），在 Clash Verge Rev 的订阅管理中粘贴导入即可使用；也可以在自定义配置中把它当作 `proxy-providers` 的节点来源。
+
+> ⚠️ **安全提示**：免费节点来自未知的第三方公开服务，不能视为可信 VPN。不要通过它们登录银行、邮箱、代码仓库或传输敏感数据；请遵守所在地区法律和各上游项目许可证。上游项目可能随时删除节点或改变格式。
+
+---
+
 ## 🛠️ 维护者指南 (Maintainer Guide)
 
 如果你是本项目所有者（`logicrw`），想要新增特殊的分流域名（如 AI、Gemini 或 Crypto）：
@@ -130,6 +144,13 @@ git add rules/
 git commit -m "chore: sync rules from RuleGo"
 git push origin main
 ```
+
+### 3. 免费节点聚合
+
+- 节点来源在 [`sources.yaml`](sources.yaml)，聚合脚本为 `scripts/update.py`：抓取 → 去重 → 探活 → 按地区限额 → 生成 `output/clash.yaml` 与 `output/source-status.json`。
+- GitHub Actions 工作流 [update.yml](.github/workflows/update.yml) 每小时在 :10 运行（与每日 0 点的规则同步工作流错开，避免 push 冲突），只提交 `output/clash.yaml` 和 `output/source-status.json`；`output/unavailable-sources.json` 仅本地排查用，已加入 `.gitignore`。
+- **地区分类正则以 `config/clash-verge.yaml` 为单一来源**：脚本启动时读取各地区策略组的 `filter` 字段进行分类，与 Clash Verge 中看到的分组始终一致。调整地区正则时只需修改配置文件，不要在脚本里另写一份。
+- 本地运行：`pip install -r requirements.txt && python scripts/update.py`。可用环境变量调整：`MAX_NODES`（总节点上限，默认 1000）、`REGION_CAP`（单地区上限，默认 100）、`CHECK_TIMEOUT` / `CHECK_WORKERS`（探活超时与并发）。
 
 ---
 

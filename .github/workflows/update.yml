@@ -1,0 +1,30 @@
+name: Update Clash subscription
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每小时 :10 运行，与 sync-rules（每天 0 点整）错开，避免同时 push 冲突
+    - cron: "10 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/update.py
+      - name: Commit generated subscription
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # unavailable-sources.json 体积大（数百 KB/次）且仅供排查，不入库
+          git add output/clash.yaml output/source-status.json
+          git diff --cached --quiet || git commit -m "chore: update clash subscription"
+          git push
