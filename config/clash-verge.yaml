@@ -68,12 +68,18 @@ proxy-groups:
     type: select
     proxies:
       - "♻️ 自动选择"
-      - "🇭🇰 香港"
-      - "🇨🇳 台湾"
-      - "🇸🇬 新加坡"
-      - "🇯🇵 日本"
-      - "🇺🇸 美国"
+      - "🇭🇰🇹🇼 港台"
+      - "🇯🇵🇰🇷 日韩"
+      - "🌏 东南亚"
+      - "🇺🇸🇨🇦 美加"
       - "🇦🇺 澳大利亚"
+      - "🇫🇷 法国"
+      - "🇬🇧 英国"
+      - "🇩🇪 德国"
+      - "🇳🇱 荷兰"
+      - "🇷🇴 罗马尼亚"
+      - "🇪🇸 西班牙"
+      - "🌍 其他地区"
       - "🎯 直连"
 
   # 自动选择
@@ -87,8 +93,8 @@ proxy-groups:
       - airport2
     filter: "^((?!直接连接|全球直连|剩余流量|套餐到期|官网|重置|更新).)*$"
 
-  # 香港
-  - name: "🇭🇰 香港"
+  # 港台（香港/台湾）
+  - name: "🇭🇰🇹🇼 港台"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
@@ -96,10 +102,10 @@ proxy-groups:
     use:
       - airport1
       - airport2
-    filter: "(?i)港|🇭🇰|香港|HK|Hong"
+    filter: "(?i)港|🇭🇰|香港|HKG|Hong|(?:^|[^a-z])HK(?:[^a-z]|$)|台|🇨🇳|台湾|新北|TPE|TWN|Taiwan|(?:^|[^a-z])TW(?:[^a-z]|$)"
 
-  # 台湾
-  - name: "🇨🇳 台湾"
+  # 东南亚（新加坡/菲律宾/越南/马来西亚/泰国/印尼等）
+  - name: "🌏 东南亚"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
@@ -107,10 +113,10 @@ proxy-groups:
     use:
       - airport1
       - airport2
-    filter: "(?i)台|🇨🇳|台湾|TW|Tai"
+    filter: "(?i)坡|🇸🇬|新加坡|狮城|SGP|Singapore|(?:^|[^a-z])SG(?:[^a-z]|$)|菲律|🇵🇭|马尼拉|PHL|Philippine|(?:^|[^a-z])PH(?:[^a-z]|$)|越南|🇻🇳|河内|胡志明|VNM|Vietnam|(?:^|[^a-z])VN(?:[^a-z]|$)|马来|🇲🇾|吉隆坡|MYS|Malaysia|(?:^|[^a-z])MY(?:[^a-z]|$)|泰国|🇹🇭|曼谷|THA|Thailand|(?:^|[^a-z])TH(?:[^a-z]|$)|印尼|印度尼|🇮🇩|雅加达|IDN|Indonesia|(?:^|[^a-z])ID(?:[^a-z]|$)|柬埔寨|🇰🇭|金边|老挝|缅甸|🇲🇲|文莱|🇧🇳"
 
-  # 新加坡
-  - name: "🇸🇬 新加坡"
+  # 日韩（日本/韩国）
+  - name: "🇯🇵🇰🇷 日韩"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
@@ -118,10 +124,10 @@ proxy-groups:
     use:
       - airport1
       - airport2
-    filter: "(?i)坡|🇸🇬|新加坡|狮城|SG|Singapore"
+    filter: "(?i)🇯🇵|日本|东京|大阪|JPN|Japan|(?:^|[^a-z])JP(?:[^a-z]|$)|韩|🇰🇷|首尔|Korea|KOR|(?:^|[^a-z])KR(?:[^a-z]|$)"
 
-  # 日本
-  - name: "🇯🇵 日本"
+  # 美加（美国/加拿大）
+  - name: "🇺🇸🇨🇦 美加"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
@@ -129,18 +135,7 @@ proxy-groups:
     use:
       - airport1
       - airport2
-    filter: "(?i)🇯🇵|日本|JP|Japan"
-
-  # 美国
-  - name: "🇺🇸 美国"
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    tolerance: 50
-    use:
-      - airport1
-      - airport2
-    filter: "(?i)美|🇺🇸|美国|US|States|American"
+    filter: "(?i)美|🇺🇸|美国|USA|States|American|洛杉矶|圣何塞|西雅图|凤凰城|达拉斯|芝加哥|Los Angeles|San Jose|Seattle|Phoenix|Dallas|Chicago|(?:^|[^a-z])US(?:[^a-z]|$)|加拿大|🇨🇦|枫叶|Canad|蒙特利尔|多伦多|温哥华|Toronto|Montreal|Vancouver|(?:^|[^a-z])CA(?:[^a-z]|$)"
 
   # 澳大利亚
   - name: "🇦🇺 澳大利亚"
@@ -151,7 +146,84 @@ proxy-groups:
     use:
       - airport1
       - airport2
-    filter: "(?i)澳大利亚|🇦🇺|澳洲|AU|Australia|Aussie"
+    filter: "(?i)澳大利亚|澳洲|🇦🇺|AUS|Australia|Aussie|悉尼|Sydney|(?:^|[^a-z])AU(?:[^a-z]|$)"
+
+  # 法国
+  - name: "🇫🇷 法国"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - airport1
+      - airport2
+    filter: "(?i)法|🇫🇷|法国|巴黎|FRA|France|(?:^|[^a-z])FR(?:[^a-z]|$)"
+
+  # 英国
+  - name: "🇬🇧 英国"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - airport1
+      - airport2
+    filter: "(?i)英|🇬🇧|英国|伦敦|GBR|United Kingdom|(?:^|[^a-z])GB(?:[^a-z]|$)|(?:^|[^a-z])UK(?:[^a-z]|$)"
+
+  # 德国
+  - name: "🇩🇪 德国"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - airport1
+      - airport2
+    filter: "(?i)德|🇩🇪|德国|法兰克福|DEU|German|(?:^|[^a-z])DE(?:[^a-z]|$)"
+
+  # 荷兰
+  - name: "🇳🇱 荷兰"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - airport1
+      - airport2
+    filter: "(?i)荷兰|阿姆斯特丹|🇳🇱|NLD|Netherland|(?:^|[^a-z])NL(?:[^a-z]|$)"
+
+  # 罗马尼亚
+  - name: "🇷🇴 罗马尼亚"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - airport1
+      - airport2
+    filter: "(?i)罗马尼亚|🇷🇴|ROU|(?:^|[^a-z])RO(?:[^a-z]|$)"
+
+  # 西班牙
+  - name: "🇪🇸 西班牙"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - airport1
+      - airport2
+    filter: "(?i)西班牙|🇪🇸|马德里|巴塞罗那|Madrid|Barcelona|ESP|Spa(?:in|nish)|(?:^|[^a-z])ES(?:[^a-z]|$)"
+
+  # 其他地区（兜底：未被上方地区命中的节点）
+  - name: "🌍 其他地区"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    tolerance: 50
+    use:
+      - airport1
+      - airport2
+    exclude-filter: "(?i)港|🇭🇰|香港|HKG|Hong|台|🇨🇳|台湾|新北|TPE|TWN|Taiwan|韩|🇰🇷|首尔|Korea|KOR|坡|🇸🇬|新加坡|狮城|SGP|Singapore|🇯🇵|日本|东京|大阪|JPN|Japan|菲律|🇵🇭|马尼拉|PHL|Philippine|越南|🇻🇳|河内|胡志明|VNM|Vietnam|马来|🇲🇾|吉隆坡|MYS|Malaysia|泰国|🇹🇭|曼谷|THA|Thailand|印尼|印度尼|🇮🇩|雅加达|IDN|Indonesia|柬埔寨|🇰🇭|金边|老挝|缅甸|🇲🇲|文莱|🇧🇳|美|🇺🇸|美国|USA|States|American|洛杉矶|圣何塞|西雅图|凤凰城|达拉斯|芝加哥|Los Angeles|San Jose|Seattle|Phoenix|Dallas|Chicago|加拿大|🇨🇦|枫叶|Canad|蒙特利尔|多伦多|温哥华|Toronto|Montreal|Vancouver|澳大利亚|澳洲|🇦🇺|AUS|Australia|Aussie|悉尼|Sydney|法|🇫🇷|法国|巴黎|FRA|France|罗马尼亚|🇷🇴|ROU|荷兰|阿姆斯特丹|🇳🇱|NLD|Netherland|德|🇩🇪|德国|法兰克福|DEU|German|英|🇬🇧|英国|伦敦|GBR|United Kingdom|西班牙|🇪🇸|马德里|巴塞罗那|Madrid|Barcelona|ESP|Spain|Spanish|(?:^|[^a-z])(?:HK|TW|SG|JP|KR|PH|VN|MY|TH|ID|US|CA|AU|FR|RO|NL|DE|GB|UK|ES)(?:[^a-z]|$)"
 
   # 直连
   - name: "🎯 直连"
@@ -167,43 +239,52 @@ proxy-groups:
     proxies:
       - "🎯 直连"
       - "🚀 节点选择"
-      - "🇭🇰 香港"
-      - "🇺🇸 美国"
+      - "🇭🇰🇹🇼 港台"
+      - "🇺🇸🇨🇦 美加"
 
   # Bilibili
   - name: "📺 哔哩哔哩"
     type: select
     proxies:
       - "🎯 直连"
-      - "🇭🇰 香港"
-      - "🇨🇳 台湾"
+      - "🇭🇰🇹🇼 港台"
 
   # Disney+
   - name: "🎬 Disney+"
     type: select
     proxies:
       - "🚀 节点选择"
-      - "🇭🇰 香港"
-      - "🇸🇬 新加坡"
-      - "🇯🇵 日本"
-      - "🇺🇸 美国"
+      - "🇭🇰🇹🇼 港台"
+      - "🌏 东南亚"
+      - "🇯🇵🇰🇷 日韩"
+      - "🇺🇸🇨🇦 美加"
+      - "🇫🇷 法国"
+      - "🇬🇧 英国"
+      - "🇩🇪 德国"
+      - "🇳🇱 荷兰"
+      - "🇪🇸 西班牙"
 
   # Netflix
   - name: "🎥 Netflix"
     type: select
     proxies:
       - "🚀 节点选择"
-      - "🇭🇰 香港"
-      - "🇸🇬 新加坡"
-      - "🇯🇵 日本"
-      - "🇺🇸 美国"
+      - "🇭🇰🇹🇼 港台"
+      - "🌏 东南亚"
+      - "🇯🇵🇰🇷 日韩"
+      - "🇺🇸🇨🇦 美加"
+      - "🇫🇷 法国"
+      - "🇬🇧 英国"
+      - "🇩🇪 德国"
+      - "🇳🇱 荷兰"
+      - "🇪🇸 西班牙"
 
   # PayPal
   - name: "💳 PayPal"
     type: select
     proxies:
-      - "🇺🇸 美国"
-      - "🇭🇰 香港"
+      - "🇺🇸🇨🇦 美加"
+      - "🇭🇰🇹🇼 港台"
       - "🎯 直连"
 
   # Telegram
@@ -211,86 +292,85 @@ proxy-groups:
     type: select
     proxies:
       - "🚀 节点选择"
-      - "🇸🇬 新加坡"
-      - "🇺🇸 美国"
-      - "🇭🇰 香港"
+      - "🌏 东南亚"
+      - "🇺🇸🇨🇦 美加"
+      - "🇭🇰🇹🇼 港台"
 
   # TikTok
   - name: "🎵 TikTok"
     type: select
     proxies:
-      - "🇯🇵 日本"
-      - "🇨🇳 台湾"
-      - "🇸🇬 新加坡"
-      - "🇺🇸 美国"
+      - "🇯🇵🇰🇷 日韩"
+      - "🇭🇰🇹🇼 港台"
+      - "🌏 东南亚"
+      - "🇺🇸🇨🇦 美加"
 
   # OpenAI
   - name: "🤖 OpenAI"
     type: select
     proxies:
-      - "🇺🇸 美国"
-      - "🇯🇵 日本"
-      - "🇸🇬 新加坡"
-      - "🇨🇳 台湾"
+      - "🇺🇸🇨🇦 美加"
+      - "🇯🇵🇰🇷 日韩"
+      - "🌏 东南亚"
+      - "🇬🇧 英国"
+      - "🇫🇷 法国"
+      - "🇪🇸 西班牙"
 
   # Gemini
   - name: "💎 Gemini"
     type: select
     proxies:
-      - "🇺🇸 美国"
-      - "🇯🇵 日本"
-      - "🇸🇬 新加坡"
-      - "🇨🇳 台湾"
+      - "🇺🇸🇨🇦 美加"
+      - "🇯🇵🇰🇷 日韩"
+      - "🌏 东南亚"
+      - "🇬🇧 英国"
+      - "🇫🇷 法国"
+      - "🇪🇸 西班牙"
 
   # Twitter
   - name: "🐦 Twitter"
     type: select
     proxies:
       - "🚀 节点选择"
-      - "🇭🇰 香港"
-      - "🇨🇳 台湾"
-      - "🇺🇸 美国"
-      - "🇯🇵 日本"
+      - "🇭🇰🇹🇼 港台"
+      - "🇺🇸🇨🇦 美加"
+      - "🇯🇵🇰🇷 日韩"
 
   # YouTube
   - name: "📹 YouTube"
     type: select
     proxies:
       - "🚀 节点选择"
-      - "🇭🇰 香港"
-      - "🇨🇳 台湾"
-      - "🇺🇸 美国"
-      - "🇯🇵 日本"
-      - "🇸🇬 新加坡"
+      - "🇭🇰🇹🇼 港台"
+      - "🇺🇸🇨🇦 美加"
+      - "🇯🇵🇰🇷 日韩"
+      - "🌏 东南亚"
 
   # Weibo
   - name: "🧣 微博"
     type: select
     proxies:
       - "🎯 直连"
-      - "🇭🇰 香港"
-      - "🇨🇳 台湾"
+      - "🇭🇰🇹🇼 港台"
 
   # Google
   - name: "🌐 Google"
     type: select
     proxies:
       - "🚀 节点选择"
-      - "🇭🇰 香港"
-      - "🇨🇳 台湾"
-      - "🇸🇬 新加坡"
-      - "🇯🇵 日本"
-      - "🇺🇸 美国"
+      - "🇭🇰🇹🇼 港台"
+      - "🌏 东南亚"
+      - "🇯🇵🇰🇷 日韩"
+      - "🇺🇸🇨🇦 美加"
 
   # Crypto
   - name: "💰 Crypto"
     type: select
     proxies:
-      - "🇸🇬 新加坡"
-      - "🇭🇰 香港"
-      - "🇨🇳 台湾"
-      - "🇯🇵 日本"
-      - "🇺🇸 美国"
+      - "🌏 东南亚"
+      - "🇭🇰🇹🇼 港台"
+      - "🇯🇵🇰🇷 日韩"
+      - "🇺🇸🇨🇦 美加"
 
   # 广告拦截
   - name: "🛑 广告拦截"
@@ -314,21 +394,35 @@ rule-providers:
   # ===== 自定义规则（你的 GitHub 仓库）=====
   ai-extra:
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://cdn.jsdelivr.net/gh/logicrw/clash-rules@release/rules/ai-extra.yaml"
     path: ./ruleset/ai-extra.yaml
     interval: 86400
 
-  gemini:
+  ai-extra-kw:
     type: http
     behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/logicrw/clash-rules@release/rules/ai-extra-kw.yaml"
+    path: ./ruleset/ai-extra-kw.yaml
+    interval: 86400
+
+  gemini:
+    type: http
+    behavior: domain
     url: "https://cdn.jsdelivr.net/gh/logicrw/clash-rules@release/rules/gemini.yaml"
     path: ./ruleset/gemini.yaml
     interval: 86400
 
-  crypto:
+  gemini-kw:
     type: http
     behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/logicrw/clash-rules@release/rules/gemini-kw.yaml"
+    path: ./ruleset/gemini-kw.yaml
+    interval: 86400
+
+  crypto:
+    type: http
+    behavior: domain
     url: "https://cdn.jsdelivr.net/gh/logicrw/clash-rules@release/rules/crypto.yaml"
     path: ./ruleset/crypto.yaml
     interval: 86400
@@ -452,7 +546,9 @@ rule-providers:
 rules:
   # ===== 自定义规则（优先级最高）=====
   - RULE-SET,gemini,💎 Gemini
+  - RULE-SET,gemini-kw,💎 Gemini
   - RULE-SET,ai-extra,🤖 OpenAI
+  - RULE-SET,ai-extra-kw,🤖 OpenAI
   - RULE-SET,crypto,💰 Crypto
   - RULE-SET,proxy-extra,🚀 节点选择
   - RULE-SET,direct-extra,🎯 直连
