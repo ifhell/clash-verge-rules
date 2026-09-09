@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-08T21:51:54.725702+00:00",
+  "generated_at": "2026-09-09T00:13:38.335135+00:00",
   "proxy_count": 1000,
-  "checked": 5351,
-  "unavailable_count": 2398,
-  "kept_on_refused": 256,
+  "checked": 5445,
+  "unavailable_count": 2408,
+  "kept_on_refused": 248,
   "regions": {
-    "港台": 21,
-    "东南亚": 31,
+    "港台": 23,
+    "东南亚": 36,
     "日韩": 24,
     "美加": 100,
     "澳大利亚": 1,
     "法国": 100,
-    "英国": 28,
-    "德国": 46,
+    "英国": 36,
+    "德国": 34,
     "荷兰": 100,
     "罗马尼亚": 5,
-    "西班牙": 3,
-    "其他": 541
+    "西班牙": 4,
+    "其他": 537
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1728,
-      "added": 1728,
-      "unavailable": 295
+      "received": 1694,
+      "added": 1694,
+      "unavailable": 288
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1703,
-      "added": 1703,
-      "unavailable": 3
+      "received": 1704,
+      "added": 1704,
+      "unavailable": 6
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 420,
       "added": 420,
-      "unavailable": 135
+      "unavailable": 137
     },
     {
       "name": "anaer/Sub",
@@ -87,8 +87,8 @@
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 33,
-      "added": 33,
+      "received": 32,
+      "added": 32,
       "unavailable": 0
     },
     {
@@ -97,7 +97,7 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1826
+      "unavailable": 1838
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
