@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-09T05:59:37.671623+00:00",
+  "generated_at": "2026-09-09T11:20:34.356924+00:00",
   "proxy_count": 1000,
-  "checked": 5342,
-  "unavailable_count": 2422,
-  "kept_on_refused": 247,
+  "checked": 4961,
+  "unavailable_count": 2339,
+  "kept_on_refused": 246,
   "regions": {
-    "港台": 19,
-    "东南亚": 30,
-    "日韩": 20,
+    "港台": 15,
+    "东南亚": 16,
+    "日韩": 17,
     "美加": 100,
-    "澳大利亚": 1,
+    "澳大利亚": 6,
     "法国": 100,
-    "英国": 37,
-    "德国": 36,
-    "荷兰": 100,
+    "英国": 27,
+    "德国": 31,
+    "荷兰": 72,
     "罗马尼亚": 5,
-    "西班牙": 3,
-    "其他": 549
+    "西班牙": 2,
+    "其他": 609
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1694,
-      "added": 1694,
-      "unavailable": 301
+      "received": 902,
+      "added": 902,
+      "unavailable": 171
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1690,
-      "added": 1690,
-      "unavailable": 4
+      "received": 1749,
+      "added": 1749,
+      "unavailable": 16
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 473,
       "added": 473,
-      "unavailable": 141
+      "unavailable": 174
     },
     {
       "name": "anaer/Sub",
@@ -87,8 +87,8 @@
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 34,
-      "added": 34,
+      "received": 28,
+      "added": 28,
       "unavailable": 0
     },
     {
@@ -97,7 +97,7 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1839
+      "unavailable": 1841
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
