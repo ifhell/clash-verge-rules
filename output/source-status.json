@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-09T16:38:00.947108+00:00",
+  "generated_at": "2026-09-09T19:47:05.641814+00:00",
   "proxy_count": 1000,
-  "checked": 6001,
-  "unavailable_count": 2616,
-  "kept_on_refused": 347,
+  "checked": 5987,
+  "unavailable_count": 2617,
+  "kept_on_refused": 340,
   "regions": {
     "港台": 18,
-    "东南亚": 18,
-    "日韩": 19,
+    "东南亚": 20,
+    "日韩": 21,
     "美加": 100,
     "澳大利亚": 4,
     "法国": 100,
-    "英国": 19,
+    "英国": 20,
     "德国": 33,
     "荷兰": 85,
-    "罗马尼亚": 6,
+    "罗马尼亚": 7,
     "西班牙": 2,
-    "其他": 596
+    "其他": 590
   },
   "sources": [
     {
@@ -25,7 +25,7 @@
       "ok": true,
       "received": 834,
       "added": 834,
-      "unavailable": 175
+      "unavailable": 179
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1634,
-      "added": 1634,
-      "unavailable": 13
+      "received": 1527,
+      "added": 1527,
+      "unavailable": 5
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -49,7 +49,7 @@
       "ok": true,
       "received": 25,
       "added": 25,
-      "unavailable": 1
+      "unavailable": 0
     },
     {
       "name": "vxiaov/free_proxies",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 418,
       "added": 418,
-      "unavailable": 141
+      "unavailable": 142
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1449,
       "added": 1449,
-      "unavailable": 424
+      "unavailable": 430
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1852
+      "unavailable": 1851
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 28,
-      "added": 28,
+      "received": 31,
+      "added": 31,
       "unavailable": 0
     }
   ]
