@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-09T22:34:18.489357+00:00",
+  "generated_at": "2026-09-10T01:05:12.596578+00:00",
   "proxy_count": 1000,
-  "checked": 6223,
-  "unavailable_count": 2712,
-  "kept_on_refused": 346,
+  "checked": 6416,
+  "unavailable_count": 2726,
+  "kept_on_refused": 335,
   "regions": {
-    "港台": 21,
-    "东南亚": 26,
-    "日韩": 26,
+    "港台": 15,
+    "东南亚": 31,
+    "日韩": 33,
     "美加": 100,
-    "澳大利亚": 4,
+    "澳大利亚": 1,
     "法国": 100,
-    "英国": 28,
-    "德国": 36,
+    "英国": 37,
+    "德国": 32,
     "荷兰": 100,
-    "罗马尼亚": 5,
+    "罗马尼亚": 4,
     "西班牙": 2,
-    "其他": 552
+    "其他": 545
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1359,
-      "added": 1359,
-      "unavailable": 279
+      "received": 1585,
+      "added": 1585,
+      "unavailable": 278
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1533,
-      "added": 1533,
-      "unavailable": 7
+      "received": 1605,
+      "added": 1605,
+      "unavailable": 9
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -63,9 +63,9 @@
       "name": "ermaozi/get_subscribe",
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
       "ok": true,
-      "received": 418,
-      "added": 418,
-      "unavailable": 132
+      "received": 469,
+      "added": 469,
+      "unavailable": 141
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1449,
       "added": 1449,
-      "unavailable": 433
+      "unavailable": 436
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -81,7 +81,7 @@
       "ok": true,
       "received": 24,
       "added": 24,
-      "unavailable": 0
+      "unavailable": 1
     },
     {
       "name": "peasoft/NoMoreWalls",
