@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-10T22:35:47.018780+00:00",
+  "generated_at": "2026-09-11T01:04:48.874256+00:00",
   "proxy_count": 1000,
-  "checked": 5096,
-  "unavailable_count": 2389,
-  "kept_on_refused": 250,
+  "checked": 5116,
+  "unavailable_count": 2402,
+  "kept_on_refused": 251,
   "regions": {
-    "港台": 16,
-    "东南亚": 26,
-    "日韩": 23,
+    "港台": 19,
+    "东南亚": 24,
+    "日韩": 21,
     "美加": 100,
-    "澳大利亚": 2,
+    "澳大利亚": 4,
     "法国": 100,
-    "英国": 29,
-    "德国": 33,
+    "英国": 25,
+    "德国": 40,
     "荷兰": 100,
-    "罗马尼亚": 3,
+    "罗马尼亚": 5,
     "西班牙": 4,
-    "其他": 564
+    "其他": 558
   },
   "sources": [
     {
@@ -25,7 +25,7 @@
       "ok": true,
       "received": 1258,
       "added": 1258,
-      "unavailable": 253
+      "unavailable": 261
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1581,
-      "added": 1581,
-      "unavailable": 8
+      "received": 1552,
+      "added": 1552,
+      "unavailable": 10
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -63,9 +63,9 @@
       "name": "ermaozi/get_subscribe",
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
       "ok": true,
-      "received": 418,
-      "added": 418,
-      "unavailable": 144
+      "received": 461,
+      "added": 461,
+      "unavailable": 149
     },
     {
       "name": "anaer/Sub",
@@ -81,7 +81,7 @@
       "ok": true,
       "received": 27,
       "added": 27,
-      "unavailable": 0
+      "unavailable": 1
     },
     {
       "name": "peasoft/NoMoreWalls",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1840
+      "unavailable": 1837
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 30,
-      "added": 30,
+      "received": 29,
+      "added": 29,
       "unavailable": 0
     }
   ]
