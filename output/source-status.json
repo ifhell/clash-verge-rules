@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-17T16:59:29.607261+00:00",
+  "generated_at": "2026-09-17T20:21:08.002406+00:00",
   "proxy_count": 1000,
-  "checked": 5796,
-  "unavailable_count": 2592,
-  "kept_on_refused": 325,
+  "checked": 5934,
+  "unavailable_count": 2664,
+  "kept_on_refused": 323,
   "regions": {
-    "港台": 8,
+    "港台": 14,
     "东南亚": 10,
-    "日韩": 14,
+    "日韩": 18,
     "美加": 100,
-    "澳大利亚": 6,
-    "法国": 79,
-    "英国": 19,
-    "德国": 30,
-    "荷兰": 57,
-    "罗马尼亚": 1,
+    "澳大利亚": 4,
+    "法国": 94,
+    "英国": 14,
+    "德国": 40,
+    "荷兰": 80,
+    "罗马尼亚": 0,
     "西班牙": 3,
-    "其他": 673
+    "其他": 623
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 394,
-      "added": 394,
-      "unavailable": 58
+      "received": 581,
+      "added": 581,
+      "unavailable": 125
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,8 +39,8 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1619,
-      "added": 1619,
+      "received": 1620,
+      "added": 1620,
       "unavailable": 14
     },
     {
@@ -49,7 +49,7 @@
       "ok": true,
       "received": 50,
       "added": 50,
-      "unavailable": 2
+      "unavailable": 1
     },
     {
       "name": "vxiaov/free_proxies",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 361,
       "added": 361,
-      "unavailable": 163
+      "unavailable": 164
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1520,
       "added": 1520,
-      "unavailable": 478
+      "unavailable": 479
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -97,7 +97,7 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1867
+      "unavailable": 1871
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
