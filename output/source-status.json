@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-18T09:45:25.599506+00:00",
+  "generated_at": "2026-09-18T14:31:45.216532+00:00",
   "proxy_count": 1000,
-  "checked": 6727,
-  "unavailable_count": 2621,
-  "kept_on_refused": 329,
+  "checked": 5753,
+  "unavailable_count": 2633,
+  "kept_on_refused": 284,
   "regions": {
-    "港台": 6,
-    "东南亚": 33,
-    "日韩": 28,
+    "港台": 18,
+    "东南亚": 49,
+    "日韩": 24,
     "美加": 100,
     "澳大利亚": 1,
     "法国": 100,
-    "英国": 15,
-    "德国": 43,
-    "荷兰": 66,
-    "罗马尼亚": 3,
-    "西班牙": 6,
-    "其他": 599
+    "英国": 18,
+    "德国": 63,
+    "荷兰": 100,
+    "罗马尼亚": 0,
+    "西班牙": 3,
+    "其他": 524
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1394,
-      "added": 1394,
-      "unavailable": 89
+      "received": 1710,
+      "added": 1710,
+      "unavailable": 305
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1622,
-      "added": 1622,
-      "unavailable": 8
+      "received": 1624,
+      "added": 1624,
+      "unavailable": 5
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -49,7 +49,7 @@
       "ok": true,
       "received": 47,
       "added": 47,
-      "unavailable": 1
+      "unavailable": 3
     },
     {
       "name": "vxiaov/free_proxies",
@@ -63,17 +63,17 @@
       "name": "ermaozi/get_subscribe",
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
       "ok": true,
-      "received": 402,
-      "added": 402,
-      "unavailable": 188
+      "received": 339,
+      "added": 339,
+      "unavailable": 134
     },
     {
       "name": "anaer/Sub",
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
       "ok": true,
-      "received": 1520,
-      "added": 1520,
-      "unavailable": 481
+      "received": 567,
+      "added": 567,
+      "unavailable": 345
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -81,14 +81,14 @@
       "ok": true,
       "received": 17,
       "added": 17,
-      "unavailable": 0
+      "unavailable": 1
     },
     {
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 31,
-      "added": 31,
+      "received": 27,
+      "added": 27,
       "unavailable": 0
     },
     {
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1844
+      "unavailable": 1830
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 31,
-      "added": 31,
+      "received": 27,
+      "added": 27,
       "unavailable": 0
     }
   ]
