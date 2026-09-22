@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-22T04:53:01.474581+00:00",
+  "generated_at": "2026-09-22T09:57:33.786603+00:00",
   "proxy_count": 1000,
-  "checked": 8914,
-  "unavailable_count": 2857,
-  "kept_on_refused": 338,
+  "checked": 8545,
+  "unavailable_count": 2843,
+  "kept_on_refused": 343,
   "regions": {
     "港台": 21,
-    "东南亚": 44,
-    "日韩": 52,
+    "东南亚": 40,
+    "日韩": 45,
     "美加": 100,
     "澳大利亚": 0,
     "法国": 100,
-    "英国": 45,
+    "英国": 47,
     "德国": 100,
     "荷兰": 100,
-    "罗马尼亚": 7,
-    "西班牙": 30,
-    "其他": 401
+    "罗马尼亚": 8,
+    "西班牙": 29,
+    "其他": 410
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 4079,
-      "added": 4079,
-      "unavailable": 307
+      "received": 3707,
+      "added": 3707,
+      "unavailable": 308
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1711,
-      "added": 1711,
-      "unavailable": 16
+      "received": 1630,
+      "added": 1630,
+      "unavailable": 6
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 393,
       "added": 393,
-      "unavailable": 156
+      "unavailable": 149
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1605,
       "added": 1605,
-      "unavailable": 507
+      "unavailable": 505
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1861
+      "unavailable": 1865
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 33,
-      "added": 33,
+      "received": 39,
+      "added": 39,
       "unavailable": 0
     }
   ]
