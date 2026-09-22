@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-22T18:53:52.423839+00:00",
+  "generated_at": "2026-09-22T22:08:04.234609+00:00",
   "proxy_count": 1000,
-  "checked": 4985,
-  "unavailable_count": 2450,
-  "kept_on_refused": 282,
+  "checked": 4944,
+  "unavailable_count": 2437,
+  "kept_on_refused": 279,
   "regions": {
-    "港台": 12,
+    "港台": 13,
     "东南亚": 4,
-    "日韩": 10,
-    "美加": 93,
-    "澳大利亚": 2,
-    "法国": 69,
+    "日韩": 11,
+    "美加": 95,
+    "澳大利亚": 3,
+    "法国": 70,
     "英国": 7,
-    "德国": 20,
+    "德国": 21,
     "荷兰": 56,
     "罗马尼亚": 5,
     "西班牙": 2,
-    "其他": 720
+    "其他": 713
   },
   "sources": [
     {
@@ -25,7 +25,7 @@
       "ok": true,
       "received": 295,
       "added": 295,
-      "unavailable": 48
+      "unavailable": 50
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1717,
-      "added": 1717,
-      "unavailable": 15
+      "received": 1718,
+      "added": 1718,
+      "unavailable": 11
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 566,
       "added": 566,
-      "unavailable": 343
+      "unavailable": 342
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -87,8 +87,8 @@
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 25,
-      "added": 25,
+      "received": 28,
+      "added": 28,
       "unavailable": 0
     },
     {
@@ -97,15 +97,15 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1857
+      "unavailable": 1859
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 41,
-      "added": 41,
-      "unavailable": 12
+      "received": 28,
+      "added": 28,
+      "unavailable": 0
     }
   ]
 }
