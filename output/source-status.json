@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-23T20:21:50.609757+00:00",
+  "generated_at": "2026-09-23T23:41:56.280929+00:00",
   "proxy_count": 1000,
-  "checked": 5795,
-  "unavailable_count": 2604,
-  "kept_on_refused": 336,
+  "checked": 5800,
+  "unavailable_count": 2613,
+  "kept_on_refused": 341,
   "regions": {
     "港台": 10,
-    "东南亚": 11,
-    "日韩": 13,
+    "东南亚": 14,
+    "日韩": 15,
     "美加": 100,
     "澳大利亚": 3,
-    "法国": 28,
+    "法国": 22,
     "英国": 14,
-    "德国": 33,
-    "荷兰": 46,
-    "罗马尼亚": 7,
-    "西班牙": 6,
-    "其他": 729
+    "德国": 34,
+    "荷兰": 51,
+    "罗马尼亚": 8,
+    "西班牙": 4,
+    "其他": 725
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 238,
-      "added": 238,
-      "unavailable": 43
+      "received": 251,
+      "added": 251,
+      "unavailable": 40
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1636,
-      "added": 1636,
-      "unavailable": 11
+      "received": 1633,
+      "added": 1633,
+      "unavailable": 13
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 306,
       "added": 306,
-      "unavailable": 166
+      "unavailable": 168
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1627,
       "added": 1627,
-      "unavailable": 518
+      "unavailable": 516
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -97,7 +97,7 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1854
+      "unavailable": 1864
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
