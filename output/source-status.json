@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-23T16:56:08.021765+00:00",
+  "generated_at": "2026-09-23T20:21:50.609757+00:00",
   "proxy_count": 1000,
-  "checked": 5836,
-  "unavailable_count": 2598,
-  "kept_on_refused": 340,
+  "checked": 5795,
+  "unavailable_count": 2604,
+  "kept_on_refused": 336,
   "regions": {
-    "港台": 8,
-    "东南亚": 9,
+    "港台": 10,
+    "东南亚": 11,
     "日韩": 13,
     "美加": 100,
     "澳大利亚": 3,
-    "法国": 56,
-    "英国": 8,
-    "德国": 34,
-    "荷兰": 49,
-    "罗马尼亚": 9,
-    "西班牙": 2,
-    "其他": 709
+    "法国": 28,
+    "英国": 14,
+    "德国": 33,
+    "荷兰": 46,
+    "罗马尼亚": 7,
+    "西班牙": 6,
+    "其他": 729
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 274,
-      "added": 274,
-      "unavailable": 48
+      "received": 238,
+      "added": 238,
+      "unavailable": 43
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1665,
-      "added": 1665,
-      "unavailable": 6
+      "received": 1636,
+      "added": 1636,
+      "unavailable": 11
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 306,
       "added": 306,
-      "unavailable": 164
+      "unavailable": 166
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1627,
       "added": 1627,
-      "unavailable": 513
+      "unavailable": 518
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1855
+      "unavailable": 1854
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 29,
-      "added": 29,
+      "received": 25,
+      "added": 25,
       "unavailable": 0
     }
   ]
