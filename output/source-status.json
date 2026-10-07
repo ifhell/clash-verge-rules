@@ -1,31 +1,30 @@
 {
-  "generated_at": "2026-10-07T17:50:20.606544+00:00",
+  "generated_at": "2026-10-07T23:05:04.954416+00:00",
   "proxy_count": 1000,
-  "checked": 6325,
-  "unavailable_count": 2908,
-  "kept_on_refused": 369,
+  "checked": 5700,
+  "unavailable_count": 2531,
+  "kept_on_refused": 359,
   "regions": {
-    "港台": 44,
-    "东南亚": 42,
-    "日韩": 81,
+    "港台": 33,
+    "东南亚": 34,
+    "日韩": 22,
     "美加": 100,
-    "澳大利亚": 4,
-    "法国": 54,
-    "英国": 15,
-    "德国": 69,
-    "荷兰": 100,
+    "澳大利亚": 7,
+    "法国": 25,
+    "英国": 9,
+    "德国": 27,
+    "荷兰": 21,
     "罗马尼亚": 2,
-    "西班牙": 5,
-    "其他": 484
+    "西班牙": 4,
+    "其他": 716
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
-      "ok": true,
-      "received": 1184,
-      "added": 1184,
-      "unavailable": 426
+      "ok": false,
+      "error": "unacceptable character #x009f: special characters are not allowed\n  in \"<byte string>\", position 297661",
+      "unavailable": 0
     },
     {
       "name": "PuddinCat/BestClash",
@@ -41,7 +40,7 @@
       "ok": true,
       "received": 1824,
       "added": 1824,
-      "unavailable": 6
+      "unavailable": 3
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +64,7 @@
       "ok": true,
       "received": 565,
       "added": 565,
-      "unavailable": 138
+      "unavailable": 178
     },
     {
       "name": "anaer/Sub",
@@ -73,22 +72,22 @@
       "ok": true,
       "received": 1672,
       "added": 1672,
-      "unavailable": 490
+      "unavailable": 489
     },
     {
       "name": "ermaozi01/free_clash_vpn",
       "url": "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml",
       "ok": true,
-      "received": 21,
-      "added": 21,
-      "unavailable": 1
+      "received": 18,
+      "added": 18,
+      "unavailable": 0
     },
     {
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 155,
-      "added": 155,
+      "received": 157,
+      "added": 157,
       "unavailable": 0
     },
     {
@@ -97,15 +96,15 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1835
+      "unavailable": 1850
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 152,
-      "added": 152,
-      "unavailable": 1
+      "received": 149,
+      "added": 149,
+      "unavailable": 0
     }
   ]
 }
