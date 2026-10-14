@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-14T20:13:13.326071+00:00",
+  "generated_at": "2026-10-14T23:56:16.576092+00:00",
   "proxy_count": 1000,
-  "checked": 5783,
-  "unavailable_count": 2605,
-  "kept_on_refused": 361,
+  "checked": 5804,
+  "unavailable_count": 2614,
+  "kept_on_refused": 364,
   "regions": {
     "港台": 25,
-    "东南亚": 36,
-    "日韩": 46,
+    "东南亚": 40,
+    "日韩": 44,
     "美加": 100,
     "澳大利亚": 6,
     "法国": 25,
-    "英国": 25,
-    "德国": 50,
-    "荷兰": 68,
+    "英国": 26,
+    "德国": 51,
+    "荷兰": 67,
     "罗马尼亚": 4,
     "西班牙": 4,
-    "其他": 611
+    "其他": 608
   },
   "sources": [
     {
@@ -25,7 +25,7 @@
       "ok": true,
       "received": 280,
       "added": 280,
-      "unavailable": 99
+      "unavailable": 105
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1780,
-      "added": 1780,
-      "unavailable": 4
+      "received": 1765,
+      "added": 1765,
+      "unavailable": 8
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 515,
       "added": 515,
-      "unavailable": 156
+      "unavailable": 158
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1621,
       "added": 1621,
-      "unavailable": 474
+      "unavailable": 471
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -87,8 +87,8 @@
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 142,
-      "added": 142,
+      "received": 140,
+      "added": 140,
       "unavailable": 0
     },
     {
@@ -103,8 +103,8 @@
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 139,
-      "added": 139,
+      "received": 147,
+      "added": 147,
       "unavailable": 0
     }
   ]
