@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-16T17:25:01.004688+00:00",
+  "generated_at": "2026-10-16T21:06:02.758495+00:00",
   "proxy_count": 1000,
-  "checked": 6542,
-  "unavailable_count": 2966,
-  "kept_on_refused": 362,
+  "checked": 6523,
+  "unavailable_count": 2975,
+  "kept_on_refused": 366,
   "regions": {
-    "港台": 45,
-    "东南亚": 85,
-    "日韩": 55,
-    "美加": 93,
-    "澳大利亚": 4,
+    "港台": 36,
+    "东南亚": 92,
+    "日韩": 48,
+    "美加": 85,
+    "澳大利亚": 1,
     "法国": 71,
-    "英国": 12,
-    "德国": 47,
+    "英国": 11,
+    "德国": 38,
     "荷兰": 100,
     "罗马尼亚": 0,
     "西班牙": 3,
-    "其他": 485
+    "其他": 515
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1302,
-      "added": 1302,
-      "unavailable": 490
+      "received": 1280,
+      "added": 1280,
+      "unavailable": 510
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1991,
-      "added": 1991,
-      "unavailable": 26
+      "received": 1995,
+      "added": 1995,
+      "unavailable": 19
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1570,
       "added": 1570,
-      "unavailable": 460
+      "unavailable": 457
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -87,9 +87,9 @@
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 143,
-      "added": 143,
-      "unavailable": 0
+      "received": 148,
+      "added": 148,
+      "unavailable": 1
     },
     {
       "name": "NiceVPN123/NiceVPN",
@@ -97,7 +97,7 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1842
+      "unavailable": 1840
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
