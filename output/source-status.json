@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-21T04:43:04.426045+00:00",
+  "generated_at": "2026-10-21T10:07:42.905599+00:00",
   "proxy_count": 1000,
-  "checked": 6348,
-  "unavailable_count": 2783,
-  "kept_on_refused": 293,
+  "checked": 5910,
+  "unavailable_count": 2779,
+  "kept_on_refused": 300,
   "regions": {
-    "港台": 54,
+    "港台": 44,
     "东南亚": 100,
     "日韩": 100,
     "美加": 100,
-    "澳大利亚": 2,
+    "澳大利亚": 1,
     "法国": 100,
-    "英国": 50,
+    "英国": 39,
     "德国": 100,
     "荷兰": 100,
-    "罗马尼亚": 3,
-    "西班牙": 9,
-    "其他": 282
+    "罗马尼亚": 2,
+    "西班牙": 7,
+    "其他": 307
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 2622,
-      "added": 2622,
-      "unavailable": 535
+      "received": 2031,
+      "added": 2031,
+      "unavailable": 533
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1451,
-      "added": 1451,
-      "unavailable": 6
+      "received": 1528,
+      "added": 1528,
+      "unavailable": 5
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 516,
       "added": 516,
-      "unavailable": 47
+      "unavailable": 44
     },
     {
       "name": "anaer/Sub",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 566,
       "added": 566,
-      "unavailable": 347
+      "unavailable": 349
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -97,15 +97,15 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1837
+      "unavailable": 1836
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 120,
-      "added": 120,
-      "unavailable": 0
+      "received": 136,
+      "added": 136,
+      "unavailable": 1
     }
   ]
 }
