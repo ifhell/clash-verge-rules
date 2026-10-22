@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-22T04:40:54.385541+00:00",
+  "generated_at": "2026-10-22T10:10:34.739762+00:00",
   "proxy_count": 1000,
-  "checked": 7216,
-  "unavailable_count": 2940,
-  "kept_on_refused": 364,
+  "checked": 6757,
+  "unavailable_count": 2929,
+  "kept_on_refused": 360,
   "regions": {
-    "港台": 59,
+    "港台": 51,
     "东南亚": 100,
-    "日韩": 100,
+    "日韩": 93,
     "美加": 100,
     "澳大利亚": 1,
     "法国": 100,
-    "英国": 51,
+    "英国": 31,
     "德国": 100,
     "荷兰": 100,
-    "罗马尼亚": 4,
-    "西班牙": 10,
-    "其他": 275
+    "罗马尼亚": 3,
+    "西班牙": 8,
+    "其他": 313
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 2597,
-      "added": 2597,
-      "unavailable": 527
+      "received": 1956,
+      "added": 1956,
+      "unavailable": 513
     },
     {
       "name": "PuddinCat/BestClash",
@@ -39,9 +39,9 @@
       "name": "Au1rxx/free-vpn-subscriptions",
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
       "ok": true,
-      "received": 1615,
-      "added": 1615,
-      "unavailable": 5
+      "received": 1573,
+      "added": 1573,
+      "unavailable": 4
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -49,7 +49,7 @@
       "ok": true,
       "received": 50,
       "added": 50,
-      "unavailable": 0
+      "unavailable": 2
     },
     {
       "name": "vxiaov/free_proxies",
@@ -73,7 +73,7 @@
       "ok": true,
       "received": 1611,
       "added": 1611,
-      "unavailable": 477
+      "unavailable": 483
     },
     {
       "name": "ermaozi01/free_clash_vpn",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1869
+      "unavailable": 1865
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 135,
-      "added": 135,
+      "received": 133,
+      "added": 133,
       "unavailable": 0
     }
   ]
