@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-03T18:26:34.464766+00:00",
+  "generated_at": "2026-11-04T00:00:01.784956+00:00",
   "proxy_count": 1000,
-  "checked": 6751,
-  "unavailable_count": 3411,
-  "kept_on_refused": 370,
+  "checked": 6786,
+  "unavailable_count": 3371,
+  "kept_on_refused": 368,
   "regions": {
-    "港台": 46,
-    "东南亚": 49,
-    "日韩": 53,
+    "港台": 36,
+    "东南亚": 62,
+    "日韩": 51,
     "美加": 100,
     "澳大利亚": 2,
     "法国": 100,
-    "英国": 17,
-    "德国": 49,
+    "英国": 22,
+    "德国": 50,
     "荷兰": 100,
     "罗马尼亚": 0,
-    "西班牙": 5,
-    "其他": 479
+    "西班牙": 8,
+    "其他": 469
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1572,
-      "added": 1572,
-      "unavailable": 540
+      "received": 1567,
+      "added": 1567,
+      "unavailable": 505
     },
     {
       "name": "PuddinCat/BestClash",
@@ -41,7 +41,7 @@
       "ok": true,
       "received": 1751,
       "added": 1751,
-      "unavailable": 55
+      "unavailable": 47
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 462,
       "added": 462,
-      "unavailable": 14
+      "unavailable": 16
     },
     {
       "name": "anaer/Sub",
@@ -87,9 +87,9 @@
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 222,
-      "added": 222,
-      "unavailable": 2
+      "received": 198,
+      "added": 198,
+      "unavailable": 1
     },
     {
       "name": "NiceVPN123/NiceVPN",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1852
+      "unavailable": 1854
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 222,
-      "added": 222,
+      "received": 198,
+      "added": 198,
       "unavailable": 0
     }
   ]
