@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-07T15:40:47.647660+00:00",
+  "generated_at": "2026-11-07T20:15:07.380925+00:00",
   "proxy_count": 1000,
-  "checked": 6545,
-  "unavailable_count": 3383,
-  "kept_on_refused": 384,
+  "checked": 6835,
+  "unavailable_count": 3171,
+  "kept_on_refused": 433,
   "regions": {
     "港台": 17,
     "东南亚": 41,
-    "日韩": 58,
+    "日韩": 61,
     "美加": 100,
-    "澳大利亚": 11,
-    "法国": 30,
-    "英国": 24,
-    "德国": 56,
+    "澳大利亚": 12,
+    "法国": 25,
+    "英国": 19,
+    "德国": 55,
     "荷兰": 100,
     "罗马尼亚": 3,
-    "西班牙": 18,
-    "其他": 542
+    "西班牙": 17,
+    "其他": 550
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1330,
-      "added": 1330,
-      "unavailable": 504
+      "received": 1318,
+      "added": 1318,
+      "unavailable": 523
     },
     {
       "name": "PuddinCat/BestClash",
@@ -41,7 +41,7 @@
       "ok": true,
       "received": 1751,
       "added": 1751,
-      "unavailable": 76
+      "unavailable": 74
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,31 +65,31 @@
       "ok": true,
       "received": 366,
       "added": 366,
-      "unavailable": 11
+      "unavailable": 10
     },
     {
       "name": "anaer/Sub",
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
       "ok": true,
-      "received": 1796,
-      "added": 1796,
-      "unavailable": 941
+      "received": 2189,
+      "added": 2189,
+      "unavailable": 700
     },
     {
       "name": "ermaozi01/free_clash_vpn",
       "url": "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml",
       "ok": true,
-      "received": 20,
-      "added": 20,
+      "received": 17,
+      "added": 17,
       "unavailable": 0
     },
     {
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 144,
-      "added": 144,
-      "unavailable": 0
+      "received": 151,
+      "added": 151,
+      "unavailable": 1
     },
     {
       "name": "NiceVPN123/NiceVPN",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1841
+      "unavailable": 1853
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 142,
-      "added": 142,
+      "received": 151,
+      "added": 151,
       "unavailable": 0
     }
   ]
