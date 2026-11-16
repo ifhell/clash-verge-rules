@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-16T11:09:48.613106+00:00",
+  "generated_at": "2026-11-16T11:37:02.534758+00:00",
   "proxy_count": 1000,
   "checked": 6942,
-  "unavailable_count": 3206,
-  "kept_on_refused": 422,
+  "unavailable_count": 3215,
+  "kept_on_refused": 418,
   "regions": {
     "港台": 16,
-    "东南亚": 55,
+    "东南亚": 54,
     "日韩": 24,
     "美加": 100,
     "澳大利亚": 4,
     "法国": 33,
     "英国": 28,
-    "德国": 46,
-    "荷兰": 94,
+    "德国": 45,
+    "荷兰": 95,
     "罗马尼亚": 1,
     "西班牙": 26,
-    "其他": 573
+    "其他": 574
   },
   "sources": [
     {
@@ -25,7 +25,7 @@
       "ok": true,
       "received": 1291,
       "added": 1291,
-      "unavailable": 531
+      "unavailable": 536
     },
     {
       "name": "PuddinCat/BestClash",
@@ -41,7 +41,7 @@
       "ok": true,
       "received": 1751,
       "added": 1751,
-      "unavailable": 98
+      "unavailable": 99
     },
     {
       "name": "awesome-vpn/awesome-vpn",
@@ -65,7 +65,7 @@
       "ok": true,
       "received": 412,
       "added": 412,
-      "unavailable": 28
+      "unavailable": 26
     },
     {
       "name": "anaer/Sub",
@@ -97,7 +97,7 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1833
+      "unavailable": 1838
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",

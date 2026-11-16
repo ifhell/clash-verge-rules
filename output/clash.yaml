@@ -121,7 +121,7 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇺🇸US_22|1.2MB/s|C002-260622
   network: raw
@@ -330,7 +330,7 @@ proxies:
   sub_tag: A003-260618
   type: ss
   udp: true
-- alterId: '0'
+- alterId: "0"
   cipher: aes-128-gcm
   name: 🇺🇸US_33|1.6MB/s|C002-260622
   network: tcp
@@ -429,7 +429,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇺🇸US_36|982KB/s|B007-260618
   network: tcp
@@ -443,7 +443,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
   packet-encoding: xudp
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇸🇬SG_4|970KB/s|C002-260622
   network: tcp
@@ -571,7 +571,7 @@ proxies:
   server: 185.226.172.8
   type: ss
   udp: true
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇨🇦CA_8|1.3MB/s|M002-260618
   port: 18000
@@ -601,23 +601,6 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 🇦🇪AE_1|366KB/s|M003-260806
-  network: ws
-  port: 22573
-  server: 84.235.244.108
-  sub_tag: M003-260806
-  type: vless
-  udp: true
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  ws-opts:
-    headers:
-      Host: uae.unixzone.us
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: uae.unixzone.us
 - cipher: aes-256-gcm
   name: 🇮🇹IT_2|3.7MB/s|S001-260618
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -707,7 +690,7 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: "0"
   cipher: auto
   http-opts:
     headers:
@@ -1844,28 +1827,6 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - tms.dingtalk.com
-    path:
-    - /
-  name: 🇮🇪IE_6|4.4MB/s|B007-260618
-  network: http
-  port: 59236
-  server: 54.229.151.97
-  skip-cert-verify: false
-  sub_tag: B007-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2387bfbc-10a6-4bd7-dc55-7cba954ce6e8
-  xudp: true
-  packet-encoding: xudp
 - name: 🇺🇸US_362|955KB/s|A004-260618
   network: ws
   port: 30016
@@ -2825,7 +2786,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: xmfhlpy.com
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇧🇷BR_4|645KB/s|M003-260806
   network: tcp
@@ -2840,7 +2801,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: xmfhlpy.com
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇸🇬SG_41|781KB/s|M003-260806
   network: tcp
@@ -2855,7 +2816,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: xmfhlpy.com
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇫🇷FR_59|3.5MB/s|M003-260806
   network: tcp
@@ -2870,7 +2831,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: xmfhlpy.com
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇫🇷FR_60|2.1MB/s|M003-260806
   network: tcp
@@ -3031,7 +2992,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: 94.241.172.107
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇩🇪DE_77|2.8MB/s|K001-260618
   network: tcp
@@ -3146,7 +3107,7 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: "0"
   cipher: auto
   http-opts:
     headers:
@@ -3217,15 +3178,6 @@ proxies:
   server: 152.42.170.187
   sub_tag: R002-260618
   type: http
-  udp: true
-- name: 🇸🇬SG_47|279KB/s|K001-260618
-  password: ''
-  port: 9090
-  server: 159.223.41.216
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: http
-  username: ''
   udp: true
 - name: ❓Other_25|90KB/s|R002-260618
   password: VDJjbE0wUWxNMFE2Og
@@ -3344,7 +3296,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇰🇷KR_28|293KB/s|B007-260618
-  password: '12242'
+  password: "12242"
   port: 10099
   server: 115.161.136.145
   sub_tag: B007-260618
@@ -3465,7 +3417,7 @@ proxies:
   network: tcp
 - name: 🇫🇷FR_69|926KB/s|C001-260618
   network: ws
-  password: '123456'
+  password: "123456"
   port: 2096
   server: 104.18.35.86
   skip-cert-verify: true
@@ -3477,20 +3429,6 @@ proxies:
     headers:
       Host: 321dfbc6.uir-9i6.pages.dev
     path: /
-- name: 🇩🇪DE_102|1.5MB/s|P002-260618
-  network: ws
-  port: 14430
-  server: 193.188.21.253
-  sub_tag: P002-260618
-  tls: false
-  type: vless
-  udp: true
-  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
-  ws-opts:
-    headers:
-      Host: 193.188.21.253
-    path: /vless
-  servername: 193.188.21.253
 - client-fingerprint: chrome
   name: 🇫🇷FR_70|233KB/s|A001-260618
   network: ws
@@ -3545,12 +3483,6 @@ proxies:
   type: trojan
   udp: true
   network: tcp
-- name: 🇻🇪VE_1|354KB/s|R002-260618
-  port: 999
-  server: 38.172.181.0
-  sub_tag: R002-260618
-  type: http
-  udp: true
 - cipher: aes-256-cfb
   name: 🇱🇻LV_10|2.3MB/s|X001-260618
   password: UTJA57ypk2XKQpnm
@@ -3652,7 +3584,7 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: "0"
   cipher: auto
   name: 🇫🇷FR_73|1.2MB/s|M003-260806
   network: ws
@@ -3672,7 +3604,7 @@ proxies:
   packet-encoding: xudp
 - alpn:
   - ''
-  alterId: '0'
+  alterId: "0"
   cipher: auto
   name: 🇵🇱PL_20|252KB/s|M003-260806
   network: ws
@@ -3738,7 +3670,7 @@ proxies:
   sub_tag: P002-260618
   type: ss
   udp: true
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇧🇷BR_5|708KB/s|S004-260618
   network: tcp
@@ -3806,7 +3738,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: matrix.phonicsindia.mobi
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇸🇬SG_54|438KB/s|M003-260806
   network: ws
@@ -3825,7 +3757,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: matrix.phonicsindia.mobi
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇸🇬SG_55|412KB/s|M003-260806
   network: ws
@@ -3871,7 +3803,7 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: "0"
   cipher: auto
   http-opts:
     headers:
@@ -3907,7 +3839,7 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇬🇧GB_29|2.8MB/s|M003-260806
   network: tcp
@@ -4322,7 +4254,7 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: bundledispatch.ratethatrestaurant.org
-- alterId: '0'
+- alterId: "0"
   cipher: auto
   name: 🇫🇷FR_91|1.3MB/s|M003-260806
   network: tcp
@@ -4536,12 +4468,12 @@ proxies:
   type: ssr
   udp: true
 - name: sg|9317|puddincat07@Telegram
-  password: '8888'
+  password: "8888"
   port: 1080
   server: 47.236.168.243
   skip-cert-verify: true
   type: socks5
-  username: '8888'
+  username: "8888"
 - type: vless
   name: 🇯🇵 日本 | JPN
   server: zfapi.zalolink.com
@@ -5269,7 +5201,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY
-    short-id: 08
+    short-id: "08"
   servername: nl41.homelab-cdn.cloud
   client-fingerprint: firefox
   network: grpc
@@ -5312,7 +5244,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
-    short-id: 08
+    short-id: "08"
   servername: thelocal.se
   client-fingerprint: firefox
   network: grpc
@@ -5362,7 +5294,7 @@ proxies:
       Host: 47.244.120.197
     path: /arki
 - name: '🇭🇰 香港 | HKG #2 #2'
-  password: '12012'
+  password: "12012"
   port: 12012
   server: 47.242.93.89
   skip-cert-verify: true
@@ -5480,7 +5412,7 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
-  sni: 'off'
+  sni: "off"
   type: hysteria2
 - name: hysteria2-1828372350
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -6230,7 +6162,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 15.204.97.214
   servername: fuck.rkn
   tls: true
@@ -6254,7 +6186,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: ww13.levikogjgfdd.ir
   servername: fuck.rkn
   tls: true
@@ -6705,7 +6637,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 15.204.97.219
   servername: fuck.rkn
   tls: true
@@ -6902,7 +6834,7 @@ proxies:
   port: 50160
   server: 138.2.73.238
   skip-cert-verify: true
-  sni: 'off'
+  sni: "off"
   type: hysteria2
 - name: hysteria2-1827145159
   password: usqmqUKJFIlCmvkCNSY64L3k
@@ -7277,15 +7209,8 @@ proxies:
   port: 50160
   server: 140.238.213.114
   skip-cert-verify: true
-  sni: 'off'
+  sni: "off"
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-1827146529
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: shadowsocks-1827146144
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -7618,7 +7543,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 51.158.206.26
   servername: fuck.rkn
   tls: true
@@ -7632,7 +7557,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 51.158.206.80
   servername: fuck.rkn
   tls: true
@@ -7797,7 +7722,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 15.204.97.206
   servername: fuck.rkn
   tls: true
@@ -7861,7 +7786,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 62.210.91.10
   servername: fuck.rkn
   tls: true
@@ -7888,7 +7813,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 51.158.206.93
   servername: fuck.rkn
   tls: true
@@ -7902,7 +7827,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 51.158.206.8
   servername: fuck.rkn
   tls: true
@@ -8491,7 +8416,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 51.158.206.86
   servername: fuck.rkn
   tls: true
@@ -8546,7 +8471,7 @@ proxies:
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: "01"
   server: 51.158.206.97
   servername: fuck.rkn
   tls: true
@@ -8778,6 +8703,22 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 204adda7e3da
+- type: vless
+  name: 🇸🇨_SC_塞舌尔->🇳🇱_NL_荷兰_IPV4
+  server: 196.196.148.63
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 717252g.nl8.h1clayd.click
+  sni: 717252g.nl8.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 204adda7e3da
 - type: vmess
   name: '@DeltaKroneckerGithub_3021_IPV4'
   server: 172.64.145.93
@@ -8813,8 +8754,8 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '11'
-  down: '55'
+  up: "11"
+  down: "55"
   auth-str: dongtaiwang.com
 - type: hysteria
   name: 🇩🇪_DE_德国_IPV4
@@ -8827,8 +8768,8 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '11'
-  down: '55'
+  up: "11"
+  down: "55"
   auth-str: dongtaiwang.com
 - type: hysteria
   name: 🇫🇷_FR_法国_IPV4 (2)
@@ -8841,8 +8782,8 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '11'
-  down: '55'
+  up: "11"
+  down: "55"
   auth-str: dongtaiwang.com
 - alterId: 0
   cipher: auto
@@ -9443,6 +9384,19 @@ proxies:
   ws-opts:
     path: /574ck-finland
 - client-fingerprint: chrome
+  name: 🇫🇮[www.v2nodes.com] vless-FI
+  network: ws
+  port: 8443
+  server: 138.124.49.108
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /fp=chrome
+- client-fingerprint: chrome
   name: '🇫🇮[www.v2nodes.com] vless-FI-1... #9'
   network: ws
   port: 443
@@ -9862,6 +9816,13 @@ proxies:
     headers:
       Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
     path: /
+- name: '🏳[www.v2nodes.com] vless- #29'
+  network: tcp
+  port: 2086
+  server: 150.95.109.109
+  tls: false
+  type: vless
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
 - cipher: chacha20-ietf-poly1305
   name: 🏳[www.v2nodes.com] ss-
   password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
@@ -10023,12 +9984,6 @@ proxies:
   password: 2e555e46dbc421452416834962fd014f
   port: 8388
   server: 62.182.193.228
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
   type: ss
 - name: '🇦🇪[www.v2nodes.com] trojan-AE-... #3'
   network: tcp
@@ -10348,6 +10303,38 @@ proxies:
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
+- name: 伊朗 016
+  type: trojan
+  network: tcp
+  server: 188.253.12.93
+  port: 41943
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+- name: 伊朗 017
+  type: trojan
+  network: tcp
+  server: 188.253.12.90
+  port: 45619
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+- name: 伊朗 018
+  type: trojan
+  network: tcp
+  server: 188.253.12.94
+  port: 45619
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+- name: 伊朗 020
+  type: trojan
+  network: tcp
+  server: 188.253.12.90
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -10421,7 +10408,6 @@ proxy-groups:
   - 🇨🇦CA_8|1.3MB/s|M002-260618
   - 🇳🇱NL_82|7.0MB/s|M001-260618
   - 🇳🇱NL_83|4.8MB/s|A004-260618
-  - 🇦🇪AE_1|366KB/s|M003-260806
   - 🇮🇹IT_2|3.7MB/s|S001-260618
   - 🇳🇱NL_87|7.8MB/s|A004-260618
   - 🇺🇸US_115|1.4MB/s|A004-260618
@@ -10549,7 +10535,6 @@ proxy-groups:
   - 🇳🇱NL_157|4.7MB/s|A004-260618
   - 🇸🇬SG_28|827KB/s|A004-260618
   - 🇵🇱PL_7|2.5MB/s|A004-260618
-  - 🇮🇪IE_6|4.4MB/s|B007-260618
   - 🇺🇸US_362|955KB/s|A004-260618
   - 🇵🇱PL_8|2.5MB/s|A004-260618
   - 🇰🇷KR_22|385KB/s|A001-260618
@@ -10679,7 +10664,6 @@ proxy-groups:
   - 🇮🇹IT_24|2.2MB/s|A004-260618
   - 🇬🇧GB_24|1.9MB/s|C002-260622
   - 🇸🇬SG_46|283KB/s|R002-260618
-  - 🇸🇬SG_47|279KB/s|K001-260618
   - ❓Other_25|90KB/s|R002-260618
   - 🇪🇸ES_20|2.7MB/s|A004-260618
   - ❓Other_26|1.2MB/s|B007-260618
@@ -10702,12 +10686,10 @@ proxy-groups:
   - 🇳🇱NL_200|403KB/s|B007-260618
   - 🇪🇸ES_25|365KB/s|M003-260806
   - 🇫🇷FR_69|926KB/s|C001-260618
-  - 🇩🇪DE_102|1.5MB/s|P002-260618
   - 🇫🇷FR_70|233KB/s|A001-260618
   - 🇫🇷FR_71|3.5MB/s|M003-260806
   - 🇳🇱NL_204|2.4MB/s|B007-260618
   - 🇯🇵JP_18|124KB/s|M003-260806
-  - 🇻🇪VE_1|354KB/s|R002-260618
   - 🇱🇻LV_10|2.3MB/s|X001-260618
   - 🇱🇻LV_11|2.2MB/s|X001-260618
   - 🇱🇻LV_12|2.2MB/s|X001-260618
@@ -11043,7 +11025,6 @@ proxy-groups:
   - hysteria2-1853502854
   - hysteria2-1945507344
   - hysteria2-1854030070
-  - shadowsocks-1827146529
   - shadowsocks-1827146144
   - shadowsocks-1939844061
   - shadowsocks-1925513121
@@ -11191,6 +11172,7 @@ proxy-groups:
   - VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443
   - VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443
   - 🇳🇱_NL_荷兰_IPV4
+  - 🇸🇨_SC_塞舌尔->🇳🇱_NL_荷兰_IPV4
   - '@DeltaKroneckerGithub_3021_IPV4'
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
   - 🇫🇷_FR_法国_IPV4
@@ -11261,6 +11243,7 @@ proxy-groups:
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
   - '🏳[www.v2nodes.com] vless- #5'
   - '🇫🇮[www.v2nodes.com] vless-FI-1... #2'
+  - 🇫🇮[www.v2nodes.com] vless-FI
   - '🇫🇮[www.v2nodes.com] vless-FI-1... #9'
   - '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   - 🇬🇧[www.v2nodes.com] vless-GB-1...
@@ -11295,6 +11278,7 @@ proxy-groups:
   - '🇹🇭[www.v2nodes.com] vless-TH-1... #1'
   - 🇹🇼[www.v2nodes.com] vless-TW-1...
   - '🏳[www.v2nodes.com] vless- #28'
+  - '🏳[www.v2nodes.com] vless- #29'
   - 🏳[www.v2nodes.com] ss-
   - 🇦🇹[www.v2nodes.com] ss-AT-1614...
   - '🏳[www.v2nodes.com] ss- #1'
@@ -11322,7 +11306,6 @@ proxy-groups:
   - 🇷🇺[www.v2nodes.com] ss-RU-1617...
   - 🇷🇺[www.v2nodes.com] ss-RU-1163...
   - 🇸🇪[www.v2nodes.com] ss-SE-1620...
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
   - '🇦🇪[www.v2nodes.com] trojan-AE-... #3'
   - '🇦🇪[www.v2nodes.com] trojan-AE-... #4'
   - 🇧🇷[www.v2nodes.com] trojan-BR-...
@@ -11355,6 +11338,10 @@ proxy-groups:
   - 伊朗 008
   - 伊朗 011
   - 伊朗 013
+  - 伊朗 016
+  - 伊朗 017
+  - 伊朗 018
+  - 伊朗 020
 - name: PROXY
   type: select
   proxies:
@@ -11426,7 +11413,6 @@ proxy-groups:
   - 🇨🇦CA_8|1.3MB/s|M002-260618
   - 🇳🇱NL_82|7.0MB/s|M001-260618
   - 🇳🇱NL_83|4.8MB/s|A004-260618
-  - 🇦🇪AE_1|366KB/s|M003-260806
   - 🇮🇹IT_2|3.7MB/s|S001-260618
   - 🇳🇱NL_87|7.8MB/s|A004-260618
   - 🇺🇸US_115|1.4MB/s|A004-260618
@@ -11554,7 +11540,6 @@ proxy-groups:
   - 🇳🇱NL_157|4.7MB/s|A004-260618
   - 🇸🇬SG_28|827KB/s|A004-260618
   - 🇵🇱PL_7|2.5MB/s|A004-260618
-  - 🇮🇪IE_6|4.4MB/s|B007-260618
   - 🇺🇸US_362|955KB/s|A004-260618
   - 🇵🇱PL_8|2.5MB/s|A004-260618
   - 🇰🇷KR_22|385KB/s|A001-260618
@@ -11684,7 +11669,6 @@ proxy-groups:
   - 🇮🇹IT_24|2.2MB/s|A004-260618
   - 🇬🇧GB_24|1.9MB/s|C002-260622
   - 🇸🇬SG_46|283KB/s|R002-260618
-  - 🇸🇬SG_47|279KB/s|K001-260618
   - ❓Other_25|90KB/s|R002-260618
   - 🇪🇸ES_20|2.7MB/s|A004-260618
   - ❓Other_26|1.2MB/s|B007-260618
@@ -11707,12 +11691,10 @@ proxy-groups:
   - 🇳🇱NL_200|403KB/s|B007-260618
   - 🇪🇸ES_25|365KB/s|M003-260806
   - 🇫🇷FR_69|926KB/s|C001-260618
-  - 🇩🇪DE_102|1.5MB/s|P002-260618
   - 🇫🇷FR_70|233KB/s|A001-260618
   - 🇫🇷FR_71|3.5MB/s|M003-260806
   - 🇳🇱NL_204|2.4MB/s|B007-260618
   - 🇯🇵JP_18|124KB/s|M003-260806
-  - 🇻🇪VE_1|354KB/s|R002-260618
   - 🇱🇻LV_10|2.3MB/s|X001-260618
   - 🇱🇻LV_11|2.2MB/s|X001-260618
   - 🇱🇻LV_12|2.2MB/s|X001-260618
@@ -12048,7 +12030,6 @@ proxy-groups:
   - hysteria2-1853502854
   - hysteria2-1945507344
   - hysteria2-1854030070
-  - shadowsocks-1827146529
   - shadowsocks-1827146144
   - shadowsocks-1939844061
   - shadowsocks-1925513121
@@ -12196,6 +12177,7 @@ proxy-groups:
   - VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443
   - VMESS-未知>澳大利亚-NF解锁澳大利亚自制剧-ChatGPT-TikTok-YouTube-sy4.620720.xyz:443
   - 🇳🇱_NL_荷兰_IPV4
+  - 🇸🇨_SC_塞舌尔->🇳🇱_NL_荷兰_IPV4
   - '@DeltaKroneckerGithub_3021_IPV4'
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4
   - 🇫🇷_FR_法国_IPV4
@@ -12266,6 +12248,7 @@ proxy-groups:
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
   - '🏳[www.v2nodes.com] vless- #5'
   - '🇫🇮[www.v2nodes.com] vless-FI-1... #2'
+  - 🇫🇮[www.v2nodes.com] vless-FI
   - '🇫🇮[www.v2nodes.com] vless-FI-1... #9'
   - '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   - 🇬🇧[www.v2nodes.com] vless-GB-1...
@@ -12300,6 +12283,7 @@ proxy-groups:
   - '🇹🇭[www.v2nodes.com] vless-TH-1... #1'
   - 🇹🇼[www.v2nodes.com] vless-TW-1...
   - '🏳[www.v2nodes.com] vless- #28'
+  - '🏳[www.v2nodes.com] vless- #29'
   - 🏳[www.v2nodes.com] ss-
   - 🇦🇹[www.v2nodes.com] ss-AT-1614...
   - '🏳[www.v2nodes.com] ss- #1'
@@ -12327,7 +12311,6 @@ proxy-groups:
   - 🇷🇺[www.v2nodes.com] ss-RU-1617...
   - 🇷🇺[www.v2nodes.com] ss-RU-1163...
   - 🇸🇪[www.v2nodes.com] ss-SE-1620...
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
   - '🇦🇪[www.v2nodes.com] trojan-AE-... #3'
   - '🇦🇪[www.v2nodes.com] trojan-AE-... #4'
   - 🇧🇷[www.v2nodes.com] trojan-BR-...
@@ -12360,5 +12343,9 @@ proxy-groups:
   - 伊朗 008
   - 伊朗 011
   - 伊朗 013
+  - 伊朗 016
+  - 伊朗 017
+  - 伊朗 018
+  - 伊朗 020
 rules:
 - MATCH,PROXY
