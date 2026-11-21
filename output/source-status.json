@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-21T17:29:23.286733+00:00",
+  "generated_at": "2026-11-21T23:12:59.124038+00:00",
   "proxy_count": 1000,
-  "checked": 6901,
-  "unavailable_count": 3223,
-  "kept_on_refused": 417,
+  "checked": 6907,
+  "unavailable_count": 3237,
+  "kept_on_refused": 433,
   "regions": {
-    "港台": 13,
-    "东南亚": 61,
-    "日韩": 35,
+    "港台": 14,
+    "东南亚": 65,
+    "日韩": 43,
     "美加": 100,
-    "澳大利亚": 9,
-    "法国": 36,
-    "英国": 25,
-    "德国": 61,
-    "荷兰": 84,
+    "澳大利亚": 3,
+    "法国": 34,
+    "英国": 24,
+    "德国": 55,
+    "荷兰": 66,
     "罗马尼亚": 0,
-    "西班牙": 19,
-    "其他": 557
+    "西班牙": 17,
+    "其他": 579
   },
   "sources": [
     {
       "name": "cbusifabcap/daily_free_vpn",
       "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/sub/Clash.yml",
       "ok": true,
-      "received": 1380,
-      "added": 1380,
-      "unavailable": 536
+      "received": 1321,
+      "added": 1321,
+      "unavailable": 543
     },
     {
       "name": "PuddinCat/BestClash",
@@ -87,9 +87,9 @@
       "name": "peasoft/NoMoreWalls",
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
       "ok": true,
-      "received": 113,
-      "added": 113,
-      "unavailable": 0
+      "received": 120,
+      "added": 120,
+      "unavailable": 3
     },
     {
       "name": "NiceVPN123/NiceVPN",
@@ -97,14 +97,14 @@
       "ok": true,
       "received": 3646,
       "added": 3646,
-      "unavailable": 1854
+      "unavailable": 1858
     },
     {
       "name": "chengaopan/AutoMergePublicNodes",
       "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
       "ok": true,
-      "received": 113,
-      "added": 113,
+      "received": 120,
+      "added": 120,
       "unavailable": 0
     }
   ]
